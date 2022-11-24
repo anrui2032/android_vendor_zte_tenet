@@ -150,13 +150,13 @@ android_app_import {
 dex_import {
 	name: "WfdCommon",
 	owner: "zte",
-	jars: ["proprietary/framework/WfdCommon.jar"],
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 dex_import {
 	name: "tcmclient",
 	owner: "zte",
-	jars: ["proprietary/framework/tcmclient.jar"],
+	jars: ["proprietary/system/framework/tcmclient.jar"],
 }
 
 dex_import {
