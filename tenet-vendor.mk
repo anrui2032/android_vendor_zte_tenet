@@ -494,7 +494,6 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libmdsprpc \
-    libmmosal-vendor \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
@@ -572,7 +571,7 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     liblistensoundmodel2 \
-    libmm-hdcpmgr \
+    libmmosal-vendor \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libmulawdec \

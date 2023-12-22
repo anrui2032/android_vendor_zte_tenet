@@ -1037,28 +1037,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmmosal-vendor",
-	stem: "libmmosal",
-	owner: "zte",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmmosal.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmmosal.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libperfconfig",
 	owner: "zte",
 	strip: {
@@ -2555,15 +2533,16 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmm-hdcpmgr",
+	name: "libmmosal-vendor",
+	stem: "libmmosal",
 	owner: "zte",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmm-hdcpmgr.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			srcs: ["proprietary/vendor/lib/libmmosal.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -10031,11 +10010,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/system_ext/lib/libwfdcommonutils.so"],
-			shared_libs: ["libmmosal", "liblog", "libutils", "libcutils", "libbinder", "libnl", "libwfdmminterface", "libwfdconfigutils", "libui", "libgui", "libhwui", "libwfddisplayconfig", "libion", "libprocessgroup", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libmmosal", "liblog", "libutils", "libcutils", "libbinder", "libnl", "libwfdmminterface", "libwfdconfigutils", "libui", "libgui", "libwfddisplayconfig", "libion", "libprocessgroup", "libdng_sdk", "libjpeg", "libpiex", "libpng", "libheif", "libnativewindow", "libEGL", "libGLESv2", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdcommonutils.so"],
-			shared_libs: ["libmmosal", "liblog", "libutils", "libcutils", "libbinder", "libnl", "libwfdmminterface", "libwfdconfigutils", "libui", "libgui", "libhwui", "libwfddisplayconfig", "libion", "libprocessgroup", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libmmosal", "liblog", "libutils", "libcutils", "libbinder", "libnl", "libwfdmminterface", "libwfdconfigutils", "libui", "libgui", "libwfddisplayconfig", "libion", "libprocessgroup", "libdng_sdk", "libjpeg", "libpiex", "libpng", "libheif", "libnativewindow", "libEGL", "libGLESv2", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -10073,11 +10052,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/system_ext/lib/libwfddisplayconfig.so"],
-			shared_libs: ["libhidlbase", "libutils", "libcutils", "liblog", "vendor.display.config@2.0", "libdisplayconfig.qti", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libutils", "libcutils", "liblog", "vendor.display.config@2.0", "libdisplayconfig.system.qti", "libbinder_ndk", "vendor.qti.hardware.display.config-V5-ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfddisplayconfig.so"],
-			shared_libs: ["libhidlbase", "libutils", "libcutils", "liblog", "vendor.display.config@2.0", "libdisplayconfig.qti", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libutils", "libcutils", "liblog", "vendor.display.config@2.0", "libdisplayconfig.system.qti", "libbinder_ndk", "vendor.qti.hardware.display.config-V5-ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -10157,11 +10136,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/system_ext/lib/libwfdsinksm.so"],
-			shared_libs: ["libc++", "libcutils", "libutils", "libwfdrtsp", "libwfduibcinterface", "libwfdmmsink", "libmmosal", "libmedia", "libwfdcommonutils", "libqdMetaData", "libwfdconfigutils", "libwfdmminterface", "libmmrtpencoder", "libmmrtpdecoder", "libhidlbase", "libnativewindow", "libmediandk", "liblog", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "libutils", "libwfdrtsp", "libwfduibcinterface", "libwfdmmsink", "libmmosal", "libmedia", "libwfdcommonutils", "libwfdconfigutils", "libwfdmminterface", "libmmrtpencoder", "libmmrtpdecoder", "libhidlbase", "libnativewindow", "libmediandk", "liblog", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdsinksm.so"],
-			shared_libs: ["libc++", "libcutils", "libutils", "libwfdrtsp", "libwfduibcinterface", "libwfdmmsink", "libmmosal", "libmedia", "libwfdcommonutils", "libqdMetaData", "libwfdconfigutils", "libwfdmminterface", "libmmrtpencoder", "libmmrtpdecoder", "libhidlbase", "libnativewindow", "libmediandk", "liblog", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "libutils", "libwfdrtsp", "libwfduibcinterface", "libwfdmmsink", "libmmosal", "libmedia", "libwfdcommonutils", "libwfdconfigutils", "libwfdmminterface", "libmmrtpencoder", "libmmrtpdecoder", "libhidlbase", "libnativewindow", "libmediandk", "liblog", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -10317,7 +10296,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/system_ext/lib/libwfdmmsrc_system.so"],
-			shared_libs: ["libbinder", "libmmosal", "liblog", "libutils", "libcutils", "libgui", "libui", "libwfdcommonutils", "libwfdconfigutils", "libinput", "libwfdmminterface", "libwfddisplayconfig", "libmedia_helper", "libaudioclient", "libwfdavenhancements", "libqdMetaData", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbinder", "libmmosal", "liblog", "libutils", "libcutils", "libgui", "libui", "libwfdcommonutils", "libwfdconfigutils", "libinput", "libwfdmminterface", "libwfddisplayconfig", "libmedia_helper", "libaudioclient", "libwfdavenhancements", "libhidlbase", "libgralloctypes", "android.hardware.graphics.mapper@4.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -10334,7 +10313,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/system_ext/lib/libwfdservice.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libbinder", "libgui", "libwfdsinksm", "libmmosal", "libwfdcommonutils", "libwfdconfigutils", "libinput", "libwfdmminterface", "libmedia_helper", "libaudioclient", "libwfdmmsrc_system", "libwfdavenhancements", "libqdMetaData", "libhidlbase", "vendor.qti.hardware.wifidisplaysession@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libutils", "libcutils", "libbinder", "libgui", "libwfdsinksm", "libmmosal", "libwfdcommonutils", "libwfdconfigutils", "libinput", "libwfdmminterface", "libmedia_helper", "libaudioclient", "libaudiofoundation", "audioclient-types-aidl-cpp", "android.media.audio.common.types-V3-cpp", "libwfdmmsrc_system", "libwfdavenhancements", "libhidlbase", "vendor.qti.hardware.wifidisplaysession@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -10572,7 +10551,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdnative.so"],
-			shared_libs: ["libandroid_runtime", "libui", "libinput", "libnativehelper", "libutils", "liblog", "libwfdclient", "libhidlbase", "libhidlmemory", "android.hidl.base@1.0", "android.hidl.token@1.0-utils", "android.hardware.graphics.common@1.0", "android.hardware.graphics.bufferqueue@1.0", "android.hardware.graphics.bufferqueue@2.0", "libandroidfw", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libandroid_runtime", "libui", "libinput", "libbinder", "libgui", "libnativehelper", "libutils", "liblog", "libwfdclient", "libhidlbase", "libhidlmemory", "libhidlbase", "android.hidl.token@1.0-utils", "android.hardware.graphics.common@1.0", "android.hardware.graphics.bufferqueue@1.0", "android.hardware.graphics.bufferqueue@2.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
