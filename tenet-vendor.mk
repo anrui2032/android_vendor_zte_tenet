@@ -494,7 +494,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libmdsprpc \
-    libmmosal \
+    libmmosal-vendor \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
@@ -612,7 +612,7 @@ PRODUCT_PACKAGES += \
     libasphere \
     libdtsaudio \
     libshoebox \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0-vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     com.qti.eeprom.irs2381c_polar \
     com.qti.eeprom.truly_cmb433 \
