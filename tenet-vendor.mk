@@ -10,7 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/zte/tenet/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/zte/tenet/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
-    vendor/zte/tenet/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
     vendor/zte/tenet/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/zte/tenet/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
     vendor/zte/tenet/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
@@ -18,9 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/zte/tenet/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/zte/tenet/proprietary/system_ext/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephonyservice.xml \
-    vendor/zte/tenet/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
-    vendor/zte/tenet/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
-    vendor/zte/tenet/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -154,7 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/zte/tenet/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/zte/tenet/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/zte/tenet/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
@@ -163,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/camerahalvs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalvs.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
-    vendor/zte/tenet/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
@@ -213,7 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/vendor.zte.fingerprint.ifaahidl@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.zte.fingerprint.ifaahidl@1.0-service.rc \
     vendor/zte/tenet/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
-    vendor/zte/tenet/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/zte/tenet/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/zte/tenet/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/zte/tenet/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
@@ -238,9 +231,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
-    vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
-    vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
-    vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/bitra_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_ak991x_0.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/bitra_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_default_sensors.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/bitra_icm20690_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_icm20690_0.json \
@@ -375,7 +365,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/zte/tenet/proprietary/vendor/etc/st54j_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf.txt \
     vendor/zte/tenet/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/zte/tenet/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/zte/tenet/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/zte/tenet/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
     vendor/zte/tenet/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
@@ -543,7 +532,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0 \
     audio.primary.lito \
     sound_trigger.primary.lito \
-    libFileMux_proprietary \
     liba2dpoffload \
     libacdb-fts \
     libacdbloader \
@@ -569,8 +557,6 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     liblistensoundmodel2 \
-    libmmrtpdecoder_proprietary \
-    libmmrtpencoder_proprietary \
     libmulawdec \
     libomx-dts \
     libqcodec2_base \
@@ -585,31 +571,9 @@ PRODUCT_PACKAGES += \
     libspkrprot \
     libssrec \
     libswvdec \
-    libwfdcodecv4l2_proprietary \
-    libwfdcommonutils_proprietary \
-    libwfdconfigutils_proprietary \
-    libwfddisplayconfig_proprietary \
-    libwfdhdcpcp \
-    libwfdhdcpservice_proprietary \
-    libwfdmminterface_proprietary \
-    libwfdmmservice_proprietary \
-    libwfdmmsrc_proprietary \
-    libwfdmodulehdcpsession \
-    libwfdrtsp_proprietary \
-    libwfdsessionmodule \
-    libwfdsourcesession_proprietary \
-    libwfdsourcesm_proprietary \
-    libwfduibcinterface_proprietary \
-    libwfduibcsink_proprietary \
-    libwfduibcsinkinterface_proprietary \
-    libwfduibcsrc_proprietary \
-    libwfduibcsrcinterface_proprietary \
-    libwfdutils_proprietary \
     libasphere \
     libdtsaudio \
     libshoebox \
-    vendor.qti.hardware.wifidisplaysession@1.0_vendor \
-    vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     com.qti.eeprom.irs2381c_polar \
     com.qti.eeprom.truly_cmb433 \
     com.zte.sensor.gc02m1_aux_sm7250 \
@@ -1012,30 +976,7 @@ PRODUCT_PACKAGES += \
     libdpmtcm \
     libimscamera_jni \
     libimsmedia_jni \
-    libmmosal \
-    libmmparser_lite \
-    libmmrtpdecoder \
-    libmmrtpencoder \
-    libwfdavenhancements \
-    libwfdclient \
-    libwfdcommonutils \
-    libwfdconfigutils \
-    libwfddisplayconfig \
-    libwfdmminterface \
-    libwfdmmsink \
-    libwfdmmsrc_system \
-    libwfdnative \
-    libwfdrtsp \
-    libwfdservice \
-    libwfdsinksm \
-    libwfduibcinterface \
-    libwfduibcsink \
-    libwfduibcsinkinterface \
-    libwfduibcsrc \
-    libwfduibcsrcinterface \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
-    vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.imsrtpservice@3.0 \
     AlipayService \
     CACertService \
@@ -1044,10 +985,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     PowerOffAlarm \
     QtiTelephonyService \
-    WfdService \
     ims \
     qcrilmsgtunnel \
-    WfdCommon \
     tcmclient \
     com.qti.dpmframework \
     dpmapi \
@@ -1131,17 +1070,12 @@ PRODUCT_PACKAGES += \
     time_daemon \
     vendor.qti.qspmhal@1.0-service \
     vppservice \
-    wfdhdcphalservice \
-    wfdvndservice \
-    wifidisplayhalservice \
     xtra-daemon \
-    dpmd \
-    wfdservice
+    dpmd
 
 PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
     system_ext_priv-app_ims_lib_arm64_libimsmedia_jni_so \
-    system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so \
     vendor_lib_libEGL_adreno_so \
     vendor_lib_libGLESv2_adreno_so \
     vendor_lib_libq3dtools_adreno_so \
@@ -1150,6 +1084,3 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
