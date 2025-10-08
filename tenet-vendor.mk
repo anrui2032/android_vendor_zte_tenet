@@ -409,6 +409,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/firmware/a650_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b02 \
     vendor/zte/tenet/proprietary/vendor/firmware/a650_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.elf \
     vendor/zte/tenet/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
+    vendor/zte/tenet/proprietary/vendor/firmware/aw881xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw881xx_acf.bin \
     vendor/zte/tenet/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
     vendor/zte/tenet/proprietary/vendor/firmware/goodix_cfg_group_gt9897.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group_gt9897.bin \
     vendor/zte/tenet/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
