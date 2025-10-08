@@ -156,7 +156,18 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Bluetooth_cal.acdb \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_General_cal.acdb \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Global_cal.acdb \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Handset_cal.acdb \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Hdmi_cal.acdb \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Headset_cal.acdb \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_Speaker_cal.acdb \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/lito-orchidmtp-snd-card/MTP_Orchid_workspaceFile.qwsp \
     vendor/zte/tenet/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd \
+    vendor/zte/tenet/proprietary/vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd \
     vendor/zte/tenet/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/zte/tenet/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/zte/tenet/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
