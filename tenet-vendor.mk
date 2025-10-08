@@ -409,6 +409,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/firmware/a650_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b02 \
     vendor/zte/tenet/proprietary/vendor/firmware/a650_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.elf \
     vendor/zte/tenet/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
+    vendor/zte/tenet/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
+    vendor/zte/tenet/proprietary/vendor/firmware/goodix_cfg_group_gt9897.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group_gt9897.bin \
+    vendor/zte/tenet/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
+    vendor/zte/tenet/proprietary/vendor/firmware/goodix_firmware_gt9897.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_gt9897.bin \
     vendor/zte/tenet/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/zte/tenet/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/zte/tenet/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
