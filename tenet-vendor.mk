@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/zte/tenet/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/zte/tenet/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
+    vendor/zte/tenet/proprietary/vendor/bin/camerahalvs:$(TARGET_COPY_OUT_VENDOR)/bin/camerahalvs \
     vendor/zte/tenet/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/zte/tenet/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/zte/tenet/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
@@ -616,6 +617,28 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/zte/tenet/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so \
     vendor/zte/tenet/proprietary/vendor/lib/vendor.qti.power.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.power.pasrmanager@1.0.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.qti.eeprom.irs2381c_polar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.irs2381c_polar.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.truly_cmb433.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensor.gc02m1_aux_sm7250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensor.gc02m1_aux_sm7250.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensor.gc02m1_macro_sm7250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensor.gc02m1_macro_sm7250.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensor.hi846_sm7250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensor.hi846_sm7250.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensor.s5kgh1sm_sm7250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensor.s5kgh1sm_sm7250.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensor.s5kgh1sp_sm7250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensor.s5kgh1sp_sm7250.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensor.s5kgw3sp_sm7250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensor.s5kgw3sp_sm7250.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensormodule.zte_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensormodule.zte_gc02m1_macro.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensormodule.zte_gc02m1_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensormodule.zte_gc02m1_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensormodule.zte_hi846_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensormodule.zte_hi846_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensormodule.zte_s5kgh1sm_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensormodule.zte_s5kgh1sm_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensormodule.zte_s5kgh1sp_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensormodule.zte_s5kgh1sp_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.sensormodule.zte_s5kgw3sp_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.sensormodule.zte_s5kgw3sp_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.tuned.zte_tenet_5kgw3sp_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.tuned.zte_tenet_5kgw3sp_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.tuned.zte_tenet_gc02m1_aux_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.tuned.zte_tenet_gc02m1_aux_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.tuned.zte_tenet_gc02m1_macro_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.tuned.zte_tenet_gc02m1_macro_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.tuned.zte_tenet_hi846_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.tuned.zte_tenet_hi846_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.tuned.zte_tenet_s5kgh1sm_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.tuned.zte_tenet_s5kgh1sm_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/com.zte.tuned.zte_tenet_s5kgh1sp_sm7250.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.zte.tuned.zte_tenet_s5kgh1sp_sm7250.bin \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
     vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.addconstant.so \
@@ -650,23 +673,45 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
     vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
     vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.zte.node.capturebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.zte.node.capturebokeh.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.zte.node.capturepostprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.zte.node.capturepostprocess.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.zte.node.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.zte.node.hdr.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.zte.node.realtimebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.zte.node.realtimebokeh.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.zte.node.realtimeparse.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.zte.node.realtimeparse.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.zte.node.realtimepostprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.zte.node.realtimepostprocess.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.zte.node.superiq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.zte.node.superiq.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.zte.node.triplesat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.zte.node.triplesat.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/camera/components/com.zte.node.videopostprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.zte.node.videopostprocess.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.anchorsync.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.demux.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.frameselect.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.frameselect.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.frameselect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.frameselect.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.fusion.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.fusion.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.fusion.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.generic.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.generic.bitra.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.generic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.generic.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.gs.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.gs.bitra.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.gs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.gs.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.hdr.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.hdr.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.hdr.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.memcpy.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.memcpy.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.memcpy.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.mfsr.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.mfsr.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.mfsr.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.qcfa.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.qcfa.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.qcfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.qcfa.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.rawhdr.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rawhdr.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.rawhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rawhdr.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.rt.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rt.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.rt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rt.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.serializer.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.serializer.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.serializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.serializer.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.stub.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.stub.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.stub.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.swmf.bitra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.swmf.bitra.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.swmf.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/zte/tenet/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -718,6 +763,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libFNVfbEngineHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNVfbEngineHAL.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPQTEEC_vendor.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
@@ -745,10 +791,18 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libZEffectLib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libZEffectLib.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libarcsoft_dualcam_portraitlighting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_portraitlighting.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_image.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_video.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_detection.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libarcsoft_pdc_l.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_pdc_l.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
@@ -756,21 +810,32 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libcamxeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxeffect.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxexternalformatutils.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfacialfeatures.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgo.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libcamxhdrautodetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxhdrautodetect.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxifestriping.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamximageformatutils.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libcamxmirror.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxmirror.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamxncs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxncs.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libcamxportraitbokehwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxportraitbokehwrap.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libcamxselfiebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxselfiebokeh.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libcamxskinbeautiful.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxskinbeautiful.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libcamxskinenhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxskinenhance.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libcamxwatermark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxwatermark.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libcamxwidelencalc_arc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxwidelencalc_arc.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libchvs-bc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchvs-bc.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libchvs-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchvs-util.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
@@ -789,6 +854,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libfnxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfnxml.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofencing.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
@@ -827,6 +893,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libmodemapi_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmodemapi_vendor.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_nr_fusion.so \
@@ -869,6 +936,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
     vendor/zte/tenet/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-hal-qmi.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libril-qc-logger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-logger.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
@@ -893,6 +962,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskia.so \
+    vendor/zte/tenet/proprietary/vendor/lib64/libskia_watermark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskia_watermark.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/zte/tenet/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
