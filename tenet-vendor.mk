@@ -205,6 +205,72 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/zte/tenet/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
     vendor/zte/tenet/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/d30de3a0-b177-4822-9c15-816b79545f82_usb_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_bt_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_bt_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_bt_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_bt_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_usb_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_usb_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_usb_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_usb_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_wh_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a11_wh_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_bt_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_bt_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_bt_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_bt_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_usb_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_usb_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_usb_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_usb_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_wh_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a12_wh_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_bt_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_bt_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_bt_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_bt_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_usb_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_usb_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_usb_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_usb_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_wh_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a13_wh_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_bt_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_bt_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_bt_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_bt_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_usb_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_usb_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_usb_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_usb_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_wh_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a14_wh_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_bt_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_bt_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_bt_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_bt_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_usb_44.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_usb_44.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_usb_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_usb_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_wh_48.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dts/acc/f08a4c48-0887-11e4-9191-0800200c9a15_wh_48.bin \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/beq44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/beq44 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/beq48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/beq48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/ctc:$(TARGET_COPY_OUT_VENDOR)/etc/dts/ctc \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/current_bluetooth44k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_bluetooth44k \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/current_bluetooth48k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_bluetooth48k \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/current_lineout48k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_lineout48k \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/current_speaker48k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_speaker48k \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/current_usb44k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_usb44k \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/current_usb48k:$(TARGET_COPY_OUT_VENDOR)/etc/dts/current_usb48k \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/custom_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/custom_accessory44 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/custom_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/custom_accessory48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/custom_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/custom_speaker48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/customer.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dts/customer.cfg \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/default_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/default_accessory44 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/default_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/default_accessory48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/default_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/default_speaker48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/dts-eagle.lic:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts-eagle.lic \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts-m6m8-lic.key \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/dts_audio_settings:$(TARGET_COPY_OUT_VENDOR)/etc/dts/dts_audio_settings \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/game1_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/game1_accessory44 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/game1_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/game1_accessory48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/game1_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/game1_speaker48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/game2_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/game2_accessory44 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/game2_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/game2_accessory48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/game2_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/game2_speaker48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/game3_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/game3_accessory44 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/game3_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/game3_accessory48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/game3_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/game3_speaker48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/movie_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/movie_accessory44 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/movie_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/movie_accessory48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/movie_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/movie_speaker48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/music_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/music_accessory44 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/music_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/music_accessory48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/music_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/music_speaker48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/off_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/off_speaker48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/offline_hptuning.db:$(TARGET_COPY_OUT_VENDOR)/etc/dts/offline_hptuning.db \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/voice_accessory44:$(TARGET_COPY_OUT_VENDOR)/etc/dts/voice_accessory44 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/voice_accessory48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/voice_accessory48 \
+    vendor/zte/tenet/proprietary/vendor/etc/dts/voice_speaker48:$(TARGET_COPY_OUT_VENDOR)/etc/dts/voice_speaker48 \
     vendor/zte/tenet/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     vendor/zte/tenet/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/zte/tenet/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
@@ -509,6 +575,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/zte/tenet/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/zte/tenet/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
+    vendor/zte/tenet/proprietary/vendor/lib/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdts-eagle-shared.so \
+    vendor/zte/tenet/proprietary/vendor/lib/libdtsdsec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtsdsec.so \
     vendor/zte/tenet/proprietary/vendor/lib/libfastcrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcrc.so \
     vendor/zte/tenet/proprietary/vendor/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
     vendor/zte/tenet/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
@@ -527,6 +595,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
     vendor/zte/tenet/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so \
     vendor/zte/tenet/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
+    vendor/zte/tenet/proprietary/vendor/lib/libomx-dts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx-dts.so \
     vendor/zte/tenet/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/zte/tenet/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/zte/tenet/proprietary/vendor/lib/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfioctl.so \
@@ -608,6 +677,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/zte/tenet/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/zte/tenet/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
+    vendor/zte/tenet/proprietary/vendor/lib/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdtsaudio.so \
     vendor/zte/tenet/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
     vendor/zte/tenet/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/zte/tenet/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
