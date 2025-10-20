@@ -344,6 +344,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/zte/tenet/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/zte/tenet/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
+    vendor/zte/tenet/proprietary/vendor/etc/qdcm_calib_data_Visionox-RM692A4-1080-2340-6P5Inch.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Visionox-RM692A4-1080-2340-6P5Inch.xml \
+    vendor/zte/tenet/proprietary/vendor/etc/qdcm_calib_data_Visionox-RM692A4-nootp240nit-1080-2340-6P5Inch.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Visionox-RM692A4-nootp240nit-1080-2340-6P5Inch.xml \
+    vendor/zte/tenet/proprietary/vendor/etc/qdcm_calib_data_Visionox-RM692A4-otpt3-1080-2340-6P5Inch.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Visionox-RM692A4-otpt3-1080-2340-6P5Inch.xml \
+    vendor/zte/tenet/proprietary/vendor/etc/qdcm_calib_data_Visionox-RM692E1-1080-2400-6P67Inch.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Visionox-RM692E1-1080-2400-6P67Inch.xml \
     vendor/zte/tenet/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/zte/tenet/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
