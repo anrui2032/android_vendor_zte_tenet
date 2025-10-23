@@ -362,11 +362,29 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/zte/tenet/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/bitra_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_ak991x_0.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/bitra_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_default_sensors.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/bitra_icm20690_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_icm20690_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/bitra_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_icm4x6xx_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/bitra_ltr569.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bitra_ltr569.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/dynamic_sensors.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_ak991x_0.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_default_sensors.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_icm20690_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_icm20690_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_icm4x6xx_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_icp101xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_icp101xx_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_lsm6ds3c_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_lsm6dso_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_lsm6dst_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_lsm6dst_1.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_qrd_400_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_qrd_400_ak991x_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_qrd_440_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_qrd_440_ak991x_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_qrd_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_qrd_lsm6dst_1.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_qrd_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_qrd_tmd2725.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_stk3a5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_stk3a5x_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_stk3x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_stk3x3x_0.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_tcs3400.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_tcs3400.json \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/config/lito_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lito_tmd2725.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_enabled.json \
@@ -471,6 +489,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/proto/sns_tilt_to_wake.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_tilt_to_wake.proto \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/proto/sns_ultra_violet.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ultra_violet.proto \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/proto/sns_zte_pickup.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_zte_pickup.proto \
+    vendor/zte/tenet/proprietary/vendor/etc/sensors/proto/sns_ztemotion.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ztemotion.proto \
     vendor/zte/tenet/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/zte/tenet/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/zte/tenet/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
