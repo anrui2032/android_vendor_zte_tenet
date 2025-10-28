@@ -453,6 +453,7 @@ PRODUCT_PACKAGES += \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
+    android.hardware.bluetooth@1.0-impl-qti \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
@@ -480,9 +481,11 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
+    libbtnv \
     libc2d30_bltlib \
     libcamxexternalformatutils \
     libcdsprpc \
+    libconfigdb \
     libdiag \
     libdsi_netctrl \
     libdsutils \
@@ -493,7 +496,10 @@ PRODUCT_PACKAGES += \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
+    libmdmdetect \
     libmdsprpc \
+    libmmosal-vendor \
+    libnetmgr \
     libperfconfig \
     libperfgluelayer \
     libperfioctl \
@@ -508,6 +514,7 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmi_csi \
     libqmi_encdec \
+    libqmi_legacy \
     libqmiservices \
     libqti-perfd-client \
     libqti-perfd \
@@ -521,6 +528,9 @@ PRODUCT_PACKAGES += \
     libsdsprpc \
     libsensorcal \
     libsensorslog \
+    libsns_fastRPC_util \
+    libsnsapi \
+    libsnsdiaglog \
     libssc \
     libssc_default_listener \
     libsysmon_cdsp_skel \
@@ -529,10 +539,12 @@ PRODUCT_PACKAGES += \
     libvpphcp \
     libvpphvx \
     libvpplibrary \
+    libxml \
     sensors.ssc \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.dsp@1.0 \
+    vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.sensorscalibrate@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
@@ -540,6 +552,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
     vendor.qti.power.pasrmanager@1.0 \
+    vendor.qti.qspmhal@1.0 \
     audio.primary.lito \
     sound_trigger.primary.lito \
     libFileMux_proprietary \
@@ -571,7 +584,6 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     liblistensoundmodel2 \
-    libmmosal-vendor \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libmulawdec \
@@ -705,7 +717,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.uceservice@2.2 \
     com.qualcomm.qti.uceservice@2.3 \
     deviceInfoServiceModule \
-    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     camera.qcom \
@@ -754,7 +765,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_pdc_l \
     libbatching \
     libbitmlengine \
-    libbtnv \
     libcacertclient \
     libcamera_nn_stub \
     libcamerapostproc \
@@ -787,7 +797,6 @@ PRODUCT_PACKAGES += \
     libcneoplookup \
     libcneqmiutils \
     libcom.qti.chinodeutils \
-    libconfigdb \
     libcpion \
     libdataitems \
     libdisp-aba \
@@ -806,6 +815,8 @@ PRODUCT_PACKAGES += \
     libhdr_tm \
     libhexagon_nn_stub \
     libhta_hexagon_runtime \
+    libimage_segment \
+    libimage_split \
     libipebpsstriping \
     libizat_client_api \
     libizat_core \
@@ -824,13 +835,11 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
-    libmdmdetect \
     libmeters \
     libminkdescriptor \
     libminksocket \
     libmodemapi_vendor \
     libmpbase \
-    libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
@@ -841,6 +850,9 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
+    libportrait_bokeh \
+    libpowercallback \
+    libpowercore \
     libqcbor \
     libqcc_file_agent \
     libqcrilFramework \
@@ -871,19 +883,18 @@ PRODUCT_PACKAGES += \
     libsecureui \
     libsecureui_svcsock \
     libsettings \
-    libskia \
+    libskia-vendor \
     libskia_watermark \
     libslimclient \
-    libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
-    libsnsapi \
-    libsnsdiaglog \
     libsoc_helper \
     libsoc_helper_jni \
     libssd \
     libswregistrationalgo \
     libsystem_health_mon \
     libteec \
+    libtensorflowlite \
+    libtensorflowlite_gpu_delegate \
     libtime_genoff \
     libtinyxml2_1 \
     libtrustedapploader \
@@ -893,7 +904,6 @@ PRODUCT_PACKAGES += \
     libwms \
     libwqe \
     libwvhidl \
-    libxml \
     libxtadapter \
     libwvdrmengine \
     nfc_nci.st21nfc.st \
@@ -939,7 +949,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.iwlan@1.0 \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
@@ -988,7 +997,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.qspmhal@1.0-impl \
-    vendor.qti.qspmhal@1.0 \
     vendor.zte.fingerprint.ifaahidl@1.0 \
     vendor.zte.hardware.radio@1.0 \
     Elevoc_vocplus_capi2 \
