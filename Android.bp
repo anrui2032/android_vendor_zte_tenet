@@ -14471,6 +14471,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mediadrm/libwvdrmengine.so",
             ],
             shared_libs: [
+                "libcrypto_shim",
                 "libbase",
                 "libcrypto",
                 "liblog",
